@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management System - Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+         
+;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .login-container {
+            width: 400px;
+            margin: 100px auto;
+            padding: 60px;
+        
+            background-color: rgba(15, 150, 199, 0.468); /* Transparent background color for the entire page */
+
+
+            
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            
+            text-align: center;
+            color: #666;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        .input-group input {
+            width: 95%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            
+            
+            
+        }
+
+        button {
+            
+            width: 100%;
+            padding: 11px;
+            background-color: #666;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.5s;
+            margin-top: 3%;
+            box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5), 2px 2px 5px rgba(0, 0, 0, 0.5);
+            
+        }
+
+        button:hover {
+            background-color: #424141;
+        }
+        a:hover{
+            color: red;
+           
+        }
+
+        .input-account{
+            margin-top:3%;
+            color: #666;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+           
+            <div>
+                <a href="forgot_password.html">Forgot Password?</a>
+            </div>
+           
+            <button type="submit">Login</button>
+            <div class="input-account">
+                <label for="Need an account?">Need an account? <a href="URL">Register</a></label>
+            </div>
+            
+
+        </form>
+    </div>
+</body>
+</html>
